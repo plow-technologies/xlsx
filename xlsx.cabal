@@ -1,6 +1,6 @@
 Name:                xlsx
 
-Version:             0.0.1.7
+Version:             0.0.1.8.7569
 
 Synopsis:            Simple and incomplete Excel file parser/writer
 Description:
@@ -18,7 +18,7 @@ Maintainer:          qrilka@gmail.com
 Category:            Codec
 Build-type:          Simple
 
-Cabal-version:       >=1.2
+Cabal-version:       >=1.8
 
 
 Library
@@ -42,6 +42,7 @@ Library
                     ,old-time
                     ,old-locale
                     ,filepath
+                    ,void
 
 Executable           test
   Hs-source-dirs:    src
